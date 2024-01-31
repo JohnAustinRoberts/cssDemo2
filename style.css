@@ -9,3 +9,38 @@
 .testingStuff {
     font-size: 5px;
 } */
+
+ul, ol {
+    display: flex;
+}
+
+ul {
+    flex-direction: column;
+    height: 40vh;
+    justify-content: flex-end;
+}
+
+ol {
+    flex-direction: row;
+    height: 40vh;
+    align-items: last baseline;
+}
+
+ol li {
+    font-size: 20px;
+    padding: 25px;
+    border: 1px dashed green;
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.mid-li {
+    background-color: yellow;
+    /* padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 20px; */
+}
+
